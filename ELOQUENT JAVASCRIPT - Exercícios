@@ -1,0 +1,43 @@
+Exercícios - ELOQUENT JAVASCRIPT
+
+02- ESTRUTURA DO PROGRAMA
+
+// TRIÂNGULO COM LOOP
+var hashtag = "#";
+for (let count = 1; count <= 7; count++) {
+  console.log(hashtag);  
+  hashtag += "#";
+}
+
+// FizzBuzz
+for (let count = 1; count <= 100; count++) {
+  if ((count % 3 == 0) && (count % 5 == 0)) {
+    console.log("FizzBuzz");
+  } else if (count % 3 == 0) {
+    console.log("Fizz");
+  } else if (count % 5 == 0) {
+    console.log("Buzz");
+  } else {
+    console.log(count);
+  }
+}
+
+// TABULEIRO DE XADREZ
+var size = 8;
+for (let i = 0; i < size; i++) {
+  var linha = "";
+  for (let j = 0; j < size; j++) {
+    if (j % 2 == 0 && i % 2 == 0) {
+      linha += "#";
+    } else {
+      linha += " ";
+    }
+
+    if (j % 2 !== 0 && i % 2 !== 0) {
+      linha += "#";
+    } else {
+      linha += " ";
+    }
+  }
+  console.log(linha);
+}
