@@ -1,0 +1,54 @@
+NÚMEROS
+toExponential -> representa o numero na notação científica
+let numero = 123.4;
+numero.toExponential(10);
+//1.2340000000e+2
+
+toFixed -> quantidade de casa após a vírgula
+let numero = 10;
+numero.tofixed(2);
+//10.00
+
+toPrecision -> totaliza o numero com 0´s
+let numero = 123.4;
+numero.toPrecision(10);
+//123.4000000
+
+OPERADORES ARITMÉTICOS
++, -, *, /, %
+
+OPERADORES DE ATRIBUIÇÃO
++=, -=, *=, /=, e %=
+
+OPERADOR DE INCREMENTO E DECREMENTO ++ E --
+x++, x--, ++x, --x
+
+OPERADOR BINÁRIOS
+|, &, ^, ~, <<, >> e >>>
+
+CONVERSÃO DE NÚMEROS
+Number() -> Função que transforma em número
+Ex:
+Number("10");
+// 10
+
+parseInt -> Converte String para um número inteiro
+Ex:
+parseInt("10");
+// 10
+
+parseFloat -> Converte String para um numero decimal
+Ex:
+parseFloat("9.9");
+// 9.9
+
+MATH API
+abs -> Converte o sinal do número para positivo
+ceil -> Arredonda o número para cima
+floor -> Arredonda o número para baixo
+round -> Arredonda o número para cima se a parte decimal for de 5 a 9 e para baixo se for de 0 a 4
+sign -> Retorna 1 se o número for positivo e -1 se for negativo
+trunc -> Elimina a parte decimal do número, tornando-o um inteiro
+min -> Retorna o menor número passado por parâmetro
+max -> Retorna o maior número passado por parâmetro
+random -> Retorna um número randômico entre 0 e 1, não incluindo o 1
